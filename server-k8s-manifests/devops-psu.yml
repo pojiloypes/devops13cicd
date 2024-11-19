@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: devops-psu-server
-        image: pojiloypec/devops-psu
+        image: pojiloypec/devops-psu:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
